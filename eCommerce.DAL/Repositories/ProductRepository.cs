@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace eCommerce.DAL.Repositories
 {
-    public class ProductRepository : BaseRepository<Product>   
+    public class ProductRepository : BaseRepository<Product>
     {
         public ProductRepository(DataContext context)
             : base(context)
